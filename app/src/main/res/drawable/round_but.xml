@@ -1,0 +1,24 @@
+<!-- res/drawable/round_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Black background for the button -->
+
+
+    <!-- White border -->
+    <stroke
+        android:width="1dp"
+        android:color="#FFFFFF" />
+
+    <!-- Padding for the button content -->
+    <padding
+        android:left="15dp"
+        android:top="15dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+
+    <!-- Set the size of the button -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+</shape>
